@@ -15,7 +15,8 @@ _This is a web site containing a quiz that helps the user determine which progra
 
 ## Known Bugs
 
-_If there is a tie between two languages, the result will suggest the language that comes earlier in this list (Swift, Python, F#, C++) instead of displaying both languages._
+* _If there is a tie between two languages, the result will suggest the language that comes earlier in this list (Swift, Python, F#, C++) instead of displaying both languages._
+* _When refreshing the web page, the result box at the bottom of the page flashes in and out for a brief moment._
 
 ## Support and contact details
 
