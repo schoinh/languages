@@ -49,6 +49,20 @@ img {
   width: 50px;
 }
 
+a {
+  color: #00FF00;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+  background-color: #00FF00;
+}
+
+.lang {
+  color: #00FF00;
+}
+
 .btn {
   background-color: black;
   color: #00FF00;
@@ -58,4 +72,12 @@ img {
 .btn:hover {
   color: #E0E0E0;
   text-decoration: none;
+}
+
+.resultBox {
+  display: block;
+  float: centered;
+  border: solid 1px #00FF00;
+  text-align: center;
+  padding: 2em;
 }
