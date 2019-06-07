@@ -1,18 +1,18 @@
 var result = "fsharp";
 
 $(function() {
-  $(".languages").hide();
+  $(".swift, .python, .fsharp, .cplusplus").hide();
   $("form").submit(function(event) {
-    $(".languages").hide();
     event.preventDefault();
-    if (result = "swift") {
-      $(".languages .swift").show();
-    } else if (result = "python") {
-      $(".languages .python").show();
-    } else if (result = "fsharp") {
-      $(".languages .fsharp").show();
-    } else if (result = "c++") {
-      $(".languages .c++").show();
+    $(".swift, .python, .fsharp, .cplusplus").hide();
+    if (result === "swift") {
+      $(".swift").show();
+    } else if (result === "python") {
+      $(".python").show();
+    } else if (result === "fsharp") {
+      $(".fsharp").show();
+    } else if (result === "cplusplus") {
+      $(".cplusplus").show();
     } else {
       console.log("no result");
     }
