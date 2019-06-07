@@ -1,11 +1,44 @@
+body {
+  /* background-color: #39393D; */
+  background-color: black;
+  color: #E0E0E0;
+  font-family: 'B612 Mono', monospace;
+}
+
 .jumbotron {
   text-align: center;
+  background-color: black;
+  margin-top: 1em;
+  padding: 1.5em;
+  font-family: 'B612 Mono', monospace;
+  color: #00FF00;
+  border: solid #00FF00 1px;
+  border-radius: 0rem;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  color: #E0E0E0;
 }
 
 #header-emphasis {
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: 'B612 Mono', monospace;
+  color: #00FF00;
 }
 
 .prompt {
   font-weight: bold;
+  color: #00FF00;
+}
+
+.btn {
+  background-color: black;
+  color: #00FF00;
+  border-color: #00FF00;
+}
+
+.btn:hover {
+  color: #E0E0E0;
+  text-decoration: none;
 }
