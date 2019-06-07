@@ -3,7 +3,6 @@ var lang2Tally = 0;
 var lang3Tally = 0;
 var lang4Tally = 0;
 
-
 $(function() {
   $(".resultBox, .lang1, .lang2, .lang3, .lang4").hide();
   // would like to figure out a way to not have to list out all the language classes in above line

@@ -6,17 +6,12 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is a web site containing a quiz that helps the user determine which programming they should learn. There are five multiple-choice questions in addition to an input box for the user's name. Each question has 4 choices (A through D), and each choice corresponds to one of four programming languages (Swift, Python, F#, and C++). The web site tallies up the number of times the user has chosen A, and the number of times the user has chosen B, and so on, to determine which language may be most suited for the user. Upon submission, the user sees the results in a box below the "Go!" button. If the user clicks "Go!" without completely filling in the form (including the user's name), the browser will alert the user with a standard pop-up box._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Clone the repository to your desktop and open index.html_
+* _OR directly go to http://schoinh.github.io/languages ._
 
 ## Known Bugs
 
@@ -24,14 +19,14 @@ _If there is a tie between two languages, the result will suggest the language t
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Contact Na Hyung with any questions or suggestions._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Bootstrap, JavaScript, JQuery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*GNU GPLv3*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Na Hyung Choi_**
