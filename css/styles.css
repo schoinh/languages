@@ -1,8 +1,11 @@
 body {
-  /* background-color: #39393D; */
   background-color: black;
   color: #E0E0E0;
   font-family: 'B612 Mono', monospace;
+}
+
+.container {
+  width: 65%;
 }
 
 .jumbotron {
@@ -30,6 +33,16 @@ h1 {
 .prompt {
   font-weight: bold;
   color: #00FF00;
+}
+
+#nameForm {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  text-align: center;
 }
 
 .btn {
