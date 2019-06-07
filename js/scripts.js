@@ -1,15 +1,15 @@
-var swiftTally = 0;
-var pythonTally = 0;
-var fsTally = 0;
-var cppTally = 0;
+var lang1Tally = 0;
+var lang2Tally = 0;
+var lang3Tally = 0;
+var lang4Tally = 0;
 
 
 $(function() {
-  $(".swift, .python, .fs, .cpp").hide();
+  $(".lang1, .lang2, .lang3, .lang4").hide();
   // would like to figure out a way to not have to list out all the language classes in above line
   $("form").submit(function(event) {
     event.preventDefault();
-    $(".swift, .python, .fs, .cpp").hide();
+    $(".lang1, .lang2, .lang3, .lang4").hide();
     var nameInput = $("input#name").val();
     var q1Answer = $("input:radio[name=q1]:checked").val();
     var q2Answer = $("input:radio[name=q2]:checked").val();
@@ -21,13 +21,13 @@ $(function() {
 
     var tally = function(answer) {
       if (answer === "a1") {
-        swiftTally += 1;
+        lang1Tally += 1;
       } else if (answer === "a2") {
-        pythonTally += 1;
+        lang2Tally += 1;
       } else if (answer === "a3") {
-        fsTally += 1;
+        lang3Tally += 1;
       } else if (answer === "a4") {
-        cppTally += 1;
+        lang4Tally += 1;
       }
     };
 
@@ -37,16 +37,16 @@ $(function() {
     tally(q4Answer);
     tally(q5Answer);
 
-    var highestTally = Math.max(swiftTally, pythonTally, fsTally, cppTally);
+    var highestTally = Math.max(lang1Tally, lang2Tally, lang3Tally, lang4Tally);
 
-    if (highestTally === swiftTally) {
-      $(".swift").show();
-    } else if (highestTally === pythonTally) {
-      $(".python").show();
-    } else if (highestTally === fsTally) {
-      $(".fs").show();
-    } else if (highestTally === cppTally) {
-      $(".cpp").show();
+    if (highestTally === lang1Tally) {
+      $(".lang1").show();
+    } else if (highestTally === lang2Tally) {
+      $(".lang2").show();
+    } else if (highestTally === lang3Tally) {
+      $(".lang3").show();
+    } else if (highestTally === lang4Tally) {
+      $(".lang4").show();
     };
   });
 });

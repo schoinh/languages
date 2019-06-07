@@ -45,6 +45,10 @@ input {
   text-align: center;
 }
 
+img {
+  width: 50px;
+}
+
 .btn {
   background-color: black;
   color: #00FF00;
