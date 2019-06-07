@@ -10,11 +10,14 @@ $(function() {
   $("form").submit(function(event) {
     event.preventDefault();
     $(".swift, .python, .fs, .cpp").hide();
+    var nameInput = $("input#name").val();
     var q1Answer = $("input:radio[name=q1]:checked").val();
     var q2Answer = $("input:radio[name=q2]:checked").val();
     var q3Answer = $("input:radio[name=q3]:checked").val();
     var q4Answer = $("input:radio[name=q4]:checked").val();
     var q5Answer = $("input:radio[name=q5]:checked").val();
+
+    $(".name").empty().append(nameInput);
 
     var tally = function(answer) {
       if (answer === "a1") {
@@ -45,15 +48,5 @@ $(function() {
     } else if (highestTally === cppTally) {
       $(".cpp").show();
     };
-
-    // if (result === "swift") {
-    //   $(".swift").show();
-    // } else if (result === "python") {
-    //   $(".python").show();
-    // } else if (result === "fs") {
-    //   $(".fs").show();
-    // } else if (result === "cpp") {
-    //   $(".cpp").show();
-    // }
   });
 });

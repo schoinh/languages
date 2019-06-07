@@ -20,7 +20,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_If there is a tie between two languages, the result will suggest the language that comes earlier in this list (Swift, Python, F#, C++) instead of displaying both languages._
 
 ## Support and contact details
 
